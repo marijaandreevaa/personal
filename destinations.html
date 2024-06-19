@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - Marija's travel blog</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        h1 {
+            margin: 0.5em 0;
+            font-family: 'Palatino', serif;
+            font-size: 2.5em;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        img {
+            width: 60%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            margin-top: -70px;
+        }
+
+        .country-list {
+            width: 15%;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .country-list li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 2px;
+            border-radius: 4px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .country-list:first-of-type {
+            margin-right: 2.5%;
+            margin-top: -10px;
+        }
+
+        .country-list:last-of-type {
+            margin-left: 2.5%;
+            margin-top: -10px;
+        }
+        main p{
+            margin-top: -100px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Destinations</h1>
+</header>
+<main>
+    <section>
+        <ul class="country-list">
+            <li>France</li>
+            <li>Italy</li>
+            <li>Spain</li>
+            <li>Germany</li>
+            <li>Austria</li>
+            <li>Netherlands</li>
+            <li>Belgium</li>
+            <li>Luxembourg</li>
+            <li>Cyprus</li>
+            <li>Monaco</li>
+            <li>Montenegro</li>
+            <li>Turkey</li>
+        </ul>
+        <img src="map.jpg" alt="Map showing visited countries">
+        <ul class="country-list">
+            <li>Albania</li>
+            <li>Macedonia</li>
+            <li>Bulgaria</li>
+            <li>Greece</li>
+            <li>Bosnia</li>
+            <li>Croatia</li>
+            <li>Hungary</li>
+            <li>Kosovo</li>
+            <li>Romania</li>
+            <li>Serbia</li>
+            <li>Slovakia</li>
+            <li>Slovenia</li>
+        </ul>
+    </section>
+    <p>🟨 Yellow marks all the countries I have visited.</p>
+</main>
+<footer>
+    <p>&copy; 2024 Marija's travel blog. All rights reserved.</p>
+</footer>
+</body>
+</html>
